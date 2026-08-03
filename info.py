@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'hackflix')   # Session name for the bot
 API_ID = int(environ.get('API_ID', '31132509')) # API ID from my.telegram.org
 API_HASH = environ.get('API_HASH', 'c0b8f6517d19c23e1f0521cd8363a80d')  # API Hash from my.telegram.org
-BOT_TOKEN = environ.get('BOT_TOKEN', "8625150183:AAHXDZ5hCAyOIN0LIoySsI8-gRLpu7XbC44")    # Bot token from @BotFather
+BOT_TOKEN = environ.get('BOT_TOKEN', "")    # Bot token from @BotFather
 
 # ============================
 # Bot Settings Configuration
